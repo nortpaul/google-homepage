@@ -1,0 +1,128 @@
+body {
+	font-family: arial, sans-serif;
+}
+
+/*Link styles*/
+
+.top-menu a {
+	display: inline-block;
+	padding-left: 15px;
+	color: #000;
+	opacity: 0.75;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+a:visited {
+	color: #609;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:webkit-any-link {
+	cursor: pointer;
+}
+/*The top container with top-menue inside*/
+/*.top-area {
+	position: relative;
+/*}
+
+/*Top navigation left styles*/
+
+#navigation-left {
+	position: absolute;
+	margin: 7px 0 0 10px;
+}
+
+/*Top navigation right styles*/
+#navigation-right {
+	float: right;
+	display: flex;
+	align-items: center;
+	min-width: 172px;
+	padding-lift: 30px;
+	padding-right: 30px;
+	justify-content: flex-end;
+
+}
+.apps-link {
+	display: inline-block;
+	vertical-align: middle;
+	box-sizing: border-box;
+	background-image: url(images/applink.png);
+
+}
+.account-link {
+	background-size: 32px 32px;
+	background-color: green;
+	border-radius: 50%;
+	position: relative;
+	margin-left: 15px;
+	height: 32px;
+	width: 32px;
+	z-index: 0;
+	color: #fff;
+	border-width: 0;
+
+}
+
+/*Main Section Stiles*/
+.center {
+	position: absolute;
+	width: 100%;
+	display: block;
+	height: 233px;
+	margin-top: 89px;
+	text-align: -webkit-center;
+}
+
+#hplogo {
+	padding-top: 109px;
+	margin-bottom: 20px;
+	height: 92px;
+	width: 272px;
+}
+.logo-area {
+	height: 233px;
+	margin-top: 89px;
+	padding-left: auto;
+	padding-right: auto;
+	display: block;
+
+}
+
+.search-box {
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 24px;
+	border-color: #dfe1e5;
+	height: 44px;
+	width: 32%;
+	text-align: right;
+
+}
+
+.search-box img {
+	margin: 8px 12px;
+}
+
+.input-buttons {
+	padding-top: 30px;
+}
+
+.input-buttons input {
+	height: 36px;
+	line-height: 27px;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 4px;
+	color: #5f6368;
+	cursor: pointer;
+	font-size: 14px;
+	margin: 11px 4px;
+	min-width: 54px;
+	padding: 0 16px;
+	text-align: center;
+}

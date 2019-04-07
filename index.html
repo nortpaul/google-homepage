@@ -4,39 +4,38 @@
 	<meta charset="utf-8">
 	<meta name="vieport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Google-Clone</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/custom_styles.css">
 
 </head>
 <body>
-<div class="container-fluid">
-<div class=" container">
-	<div class="row">
-		<div class="col">
-			<ul class="nav">
-  				<li class="nav-item">
-  					<a class="nav-link" href="#">Über Goggle</a>
-  				</li>
-  				<li class="nav-item">
-  					<a class="nav-link" href="">Store</a>
-  				</li>
-  				</ul>
-		</div>
-		<div class="col">
-			<ul class="nav justify-content-end">
-  				<li class="nav-item">
-  					<a class="nav-link" href="#">Gmail</a>
-  				</li>
-  				<li class="nav-item">
-  					<a class="nav-link" href="">Bilder</a>
-  				</li>
-  			</ul>	
-		</div>
+	<div class="container">
+		<div class="top-area">
+			<div id="navigation-left" class="top-menu">
+				<a href="#">Über Google</a>
+				<a href="#">Store</a>
+			</div>
 		
-  
+			<div id="navigation-right" class="top-menu">
+				<a href="#">Gmail</a>
+				<a href="#">Bilder</a>
+				<a class="apps-link" href="https://www.google.de/intl/de/about/products?tab=wh" title="Google-Apps" aria-expanded="false" role="button" tabindex="	0">
+					<img src="images/applink.png">
+				</a>
+				<button class="account-link" name="Google Account">P</button>
+			</div>
+		</div>
+		<div class="center">
+			<div class="logo_area">
+				<img src="images/googlelogo_color_272x92dp.png" id="hplogo">
+			</div>
+			<div class="search-box">
+				<img src="images/micro.png">
+			</div>
+			<div class="input-buttons">
+				<input value="Google Search" aria-label="Google Search" name="btnK" type="submit">
+				<input value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" name="btnI" type="submit" jsaction="sf.lck">
+			</div>
+		</div>
 	</div>
-  
-</div>
-</div>
 </body>
 </html>
