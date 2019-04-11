@@ -126,3 +126,35 @@ a:webkit-any-link {
 	padding: 0 16px;
 	text-align: center;
 }
+
+/*Styling bottom area*/
+.fbar {
+	line-height: 40px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+
+}
+
+.country_plus_bmenu {
+	display: block;
+	font-size: small;
+	color: #5f6368;
+	background-color: #f2f2f2;
+	margin-left: -8px;
+}
+.country_plus_bmenu p,a {
+	padding-left: 18px;
+	margin-bottom: 0;
+	text-decoration: none;
+	color: #5f6368;
+
+}
+.nav-bottom-right {
+	float: right;
+	margin-right: 20px;
+}
+.nav-bottom-left {
+	border: 0.5px solid;
+	border-color: gray;
+}
